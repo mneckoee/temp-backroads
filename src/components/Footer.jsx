@@ -8,7 +8,7 @@ const Footer = () => {
         {footerLinks.map((link) => {
           const { id, url, text } = link;
           return (
-            <li key={id}>
+            <li>
               <a href={url} className='footer-link'>
                 {text}
               </a>
